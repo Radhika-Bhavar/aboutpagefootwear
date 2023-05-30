@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ .section{
+ width: 100%;
+min-height: 100vh; 
+ background-color:#add;
+ 
+}
+ .container{
+    width: 80%;
+ display: block;
+ margin: auto;
+ padding-top: 100px;
+
+ }
+ .content-section{
+    float: left;
+    width: 55%;
+    
+ }
+  
+ .image-section{
+   float: right;
+   width: 40%;
+
+ }
+ 
+  .image-section img{
+   width: 100%;
+   height: auto;
+
+ } 
+ 
+ .content-section .title{
+    text-transform: uppercase;
+    font-size: 20px;
+
+ }
+  .content-section .content h3{
+   margin-top: 20px;
+   color: blue;
+  }
+  .content-section .content p{
+   margin-top: 10px;
+   font-family: sans-serif;
+   font-size: 20px;
+   line-height: 1.5;
+  }
+  .content-section .content .button{
+   margin-top: 10%;
+  }
+.content-section .content .button a{
+   background-color:rgb(52, 139, 139);
+   padding: 12px 40px;
+   text-decoration: none;
+   color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+
+.content-section .content .button a:hover{
+   background-color: rgb(6, 46, 46);
+ color: #fff;
+}
+
+.content-section .social{
+   margin: 40px 40px;
+}
+.content-section .social i{
+   color: rgb(175, 77, 175);
+   font-size: 30px;
+   padding: 0px 10px;
+
+}
